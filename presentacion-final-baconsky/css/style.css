@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Palette+Mosaic&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+}
+img{
+    width: 55px;
+    height: 55px;
+}
+header{
+    background-color: #1465bb;
+    padding: 10px;
+}
+nav{
+    display: flow-root;
+    justify-content: space-around;
+}
+nav ul a:hover{
+    color: blue;
+}
+nav ul{
+    background-color: white;
+    text-align: right;
+    font-size: large;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+nav a{
+    color: black;
+    padding: 3px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.footer-padre{
+    display: flex;
+    justify-content: right;
+}
+.main-index{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-index{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    margin-top: 250px;
+    color: black;
+}
+section{
+    display: grid;
+    flex-direction: inherit;
+}
